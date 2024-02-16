@@ -161,18 +161,215 @@
 
 /////   08.02.2024  
 
-console.log(5*5 === 25) 
-console.log(10!=10)
-// ||(или)+  &&(и)*
+// console.log(5*5 === 25) 
+// console.log(10!=10)
+// // ||(или)+  &&(и)*
 
-        //  true(1)   false(0)
-console.log(10==10 && 10>11) 
-console.log(13<10 || 10==10 && 1<0 || true || true)
+//         //  true(1)   false(0)
+// console.log(10==10 && 10>11) 
+// console.log(13<10 || 10==10 && 1<0 || true || true)
 
-console.log(13%5>9 && 11/5<3) 
-console.log(18<x && 25>x)
+// console.log(13%5>9 && 11/5<3) 
+// console.log(18<x && 25>x)
 
-let s = {
-    rang: 12,
-    da: {}
+// let s = {
+//     rang: 12,
+//     da: {}
+// }
+
+
+
+/////    Shartli opearotrlar
+
+// if || agar || yesli
+
+// const age = prompt("Yoshingiz nechida?") 
+// if (shart){
+//     shart rost bulhandagi amal
+// } else {
+//     qolgan holatlar uchun
+// }
+
+
+// if (age > 18){
+//     alert("Welcome")
+// } else{
+//     alert("Kirish mumkin emas")
+// }
+
+// let namecha = prompt ("Ismizni kiriting!")
+
+// if (namecha == "kamol"){
+//     alert(`xush kelibsiz ${namecha}`)
+// }else {
+//     alert(`${namecha} ismi bazada yoq`)
+// }
+
+
+// log = kamOl parol = 5555
+
+// let login = prompt("Login kiriting")
+// let parol = prompt("parolni kiriting")
+// if (login =="kamOl" && parol == 5555 ){
+//     alert("xush kelibsiz! ")
+// }else { 
+//     alert("xato malumot berildi")
+// }
+
+ 
+// if (shart){
+//     amal
+// } elif(shart){
+//     amal
+// }
+// elif(shart){
+//     amal
+// } else{
+
+// }
+
+
+
+
+//        /        34            6  hw
+// a = amal;  b= 1-son , c = 2-son
+
+//uyga vazifa
+
+ 
+
+
+// let login = prompt("Logini kiriting!")
+// let parol = prompt("Parolnixam unutmang!")
+
+// if(login=="abc" && parol=="3333"){
+//     let  a = prompt ("Amalni kiriting!")
+//     let d = prompt ("Xoxlagan soningizni kiriting!") // "15" "17"
+//     let k = prompt ("Ikinchi sonni kiriting!")
+   
+//     let b = +d
+//     let c = +k
+//     if (a == "+"){
+//         alert(b+c)
+//     }else if (a=="-"){
+//         alert(b-c)
+//    }else if(a=="/"){
+//         alert(b/c)
+//    }else if(a=="*"){
+//         alert(b*c)
+//     }else if(a=="%"){
+//         alert(b%c)
+//     } else{
+//         alert("+,-,*,/,%-amalarini bajarish mumkun!")
+//     } 
+// }else {
+//     alert("Login va parol notug'ri kiritildi!")
+// }
+
+
+///////////////////////////// tinder usuli 
+
+// let age = prompt("yosh: ") 
+
+// if (age >25){
+//     console.log("herror films")
+// }else{
+//     console.log("cartoon")
+// }
+
+
+// age >25 ? console.log("herror films") : console.log("cartoon");
+
+
+// let login = prompt("login...")
+// let parol = prompt("parol...")
+// login== "abc" && parol== "3333" ? console.log("kirdiz") : console.log("kirmadiz")
+
+
+
+
+
+/////////////////////////////////////////////////////////////   h w 
+// if log {
+//     if parol{
+//         alert(kirdiz)
+//     }else{
+//         alert(p xato)
+//     }
+// }else{
+    
+// }
+
+// let login = prompt("logini kiriting")
+// let parol = prompt("parolni kiriting") 
+
+// console.log(typeof parol)
+// if (login=="abc"){
+//     if (parol=="3333"){
+//         alert("Xammsi tugri!")
+//     }else{
+//         alert("parol xato!")
+//     }
+// }else{
+//     alert("login xato!")
+// }
+
+
+// let age = prompt("yoshingizni kiriting!")
+// age==25 || age>45 ? alert("herror films") : alert("karton films")  
+
+
+
+/////////////// switch
+
+// let car_color = prompt("Rang kirit!")
+
+// switch(car_color){
+//     case "red":
+//         alert("To'xta");
+//         break;
+//     case "yellow":
+//         alert("Tayyorlan");
+//         break;
+//     case "green":
+//         alert("yurish mumkin");
+//         break;
+//     default:
+//         alert("svetaforda bunaqa rang yoq") ;
+//         break;
+// }
+
+
+
+
+
+
+
+let amal= prompt("Amalni kiriting!")
+let a_son= prompt("son kiriting!")
+let b_son= prompt("yana so kiriting!")
+switch(amal){
+    case "+":
+        alert(a_son+b_son);
+        break;
+    case "-":
+        alert(a_son-b_son);
+        break;
+    
+    case "*":
+        alert(a_son*b_son);
+        break;
+    
+    case "/":
+        alert(a_son/b_son);
+        break;
+    
+    case "%":
+        alert(a_son%b_son);
+        break;
+
+    default:
+        alert("bunaqa amal mavjud emas!")
+        break;
+
 }
